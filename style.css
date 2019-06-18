@@ -1,0 +1,59 @@
+  
+
+  /*Border usado para ver a borda que do container e apartir daqui
+	fazer medidas cabiveis.
+	border: 1px solid red;
+	*/
+
+
+
+body{
+	background: url('imagens/fundo2.png') ;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------------------------------------------------------- */
+   /* o ID Principal é o que comando o container
+   - Width é usado para medir o tamanho que o 
+   container usa da tela.*/
+#principal{ 
+	width: 900px;
+}
+
+/* --------------------------------------------------------------------------- */
+/* - Padding ajuda a dar espaçamento dento do container que
+ele foi feito.
+   - background ajuda a dar uma cor atras do menu, um ar
+   de sofisticação, separando os elementos.*/
+#menu{
+	
+	background: #c5c5b2;
+	padding: 18px;
+}
+
+/* --------------------------------------------------------------------------- */
+#conteudo{
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+#rodape{
+	text-align: center;
+}
+
+.img-campanha{
+	border: 10px solid #c3c3ae;
+}
+h1{
+	color:#828271;
+	font-size: 1.2em;
+}
+
+/*formatando link */
+
+a{
+	color: #0B173B;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
